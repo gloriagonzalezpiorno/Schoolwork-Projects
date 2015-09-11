@@ -1,0 +1,26 @@
+{
+    "name": "Lab 5",
+    "endpoint": "cal/cs61a/su15/lab05",
+    "src": [
+        "lab05.py"
+    ],
+    "tests": {
+        "lab05.py": "doctest",
+        "lab05_extra.py": "doctest"
+    },
+    "default_tests": [
+        "reverse_iter",
+        "reverse_recursive",
+        "map",
+        "filter",
+        "reduce",
+        "build_successors_table"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

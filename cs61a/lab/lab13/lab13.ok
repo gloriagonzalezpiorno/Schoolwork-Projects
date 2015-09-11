@@ -1,0 +1,35 @@
+{
+    "name": "Lab 13",
+    "endpoint": "cal/cs61a/su15/lab13",
+    "src": [
+        "lab13.scm"
+    ],
+    "tests": {
+        "tests/last.py": "ok_test",
+        "tests/reverse.py": "ok_test",
+        "tests/wwsp.py": "ok_test",
+        "tests/interleave-map.py": "ok_test",
+        "tests/stream-filter.py": "ok_test",
+        "tests/fibs.py": "ok_test",
+        "tests/insert.py": "ok_test",
+        "tests/cycle.py": "ok_test"
+    },
+    "default_tests": [
+        "last",
+        "reverse",
+        "wwsp",
+        "interleave-map",
+        "stream-filter",
+        "fibs",
+        "insert",
+        "cycle"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}

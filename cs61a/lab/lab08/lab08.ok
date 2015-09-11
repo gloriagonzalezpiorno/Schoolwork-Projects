@@ -1,0 +1,22 @@
+{
+    "name": "Lab 8",
+    "endpoint": "cal/cs61a/su15/lab08",
+    "src": [
+        "classes.py",
+        "data.py"
+    ],
+    "tests": {
+        "tests/car.py": "ok_test",
+        "tests/go_to.py": "ok_test",
+        "tests/talk_to.py": "ok_test",
+        "tests/take.py": "ok_test"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

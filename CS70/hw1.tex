@@ -1,0 +1,106 @@
+\documentclass{article}
+
+\usepackage[top=0.7in,bottom=0.7in,left=0.7in,right=0.7in]{geometry}
+\usepackage{amssymb}	% for \mathbb{}
+\usepackage{enumerate}	% for \begin{enumerate}[(a)]
+
+\begin{document}
+
+\title{\vspace{-0.7in}Homework \#1}
+\author{Xingyou Song, SID}
+\date{}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Question 1}
+\begin{enumerate}[(a)]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Question 2}
+
+\begin{enumerate}[(a)]
+$X_{1} \and X_{2} = 1$ 
+
+\item You can get into the math mode $ax+b=y$ in a sentence.
+\item This is a numbered equation, Equation~(\ref{eqn:oneplusone}).
+\begin{equation} \label{eqn:oneplusone}
+	2^3+1^{-1}=9.
+\end{equation}
+\item This is an equation without a number.
+\begin{displaymath}
+	a_1\times b_{11} \leq 1.
+\end{displaymath}
+\item You can use an equation array to align signs, numbers, or equations: 
+\begin{eqnarray*}
+	2x+1=3	& \Longrightarrow & 2x=2 \\
+			& \Longrightarrow & x=1.
+\end{eqnarray*}
+
+\end{enumerate}
+You can use $\mathtt{\\newpage}$ to jump to a new page.
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Question 3: How to Generate Tables}
+
+\begin{enumerate}[(a)]
+
+\item This is a table.
+\begin{center}
+\begin{tabular}{|c||c|c|}\hline
+		& A		& B		\\\hline\hline
+	C	& D		& E		\\\hline
+	F	& G		& H		\\\hline
+\end{tabular}
+\end{center}
+
+\item They are more complicated tables (in fact, this is just one table in \LaTeX).
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \cline{1-5}\cline{7-11}\cline{13-17}\cline{19-23}
+	\multicolumn{2}{|c|}{$P_1$} & \multicolumn{3}{|c|}{$x$} & & \multicolumn{2}{|c|}{$P_2$} & \multicolumn{3}{|c|}{$x$} & & \multicolumn{2}{|c|}{$P_3$} & \multicolumn{3}{|c|}{$x$} & & \multicolumn{2}{|c|}{$P_4$} & \multicolumn{3}{|c|}{$x$} \\\cline{3-5}\cline{9-11}\cline{15-17}\cline{21-23}
+	\multicolumn{2}{|c|}{} & 1 & 2 & 3 & & \multicolumn{2}{|c|}{} & 1 & 2 & 3 & & \multicolumn{2}{|c|}{} & 1 & 2 & 3 & & \multicolumn{2}{|c|}{} & 1 & 2 & 3 \\\cline{1-5}\cline{7-11}\cline{13-17}\cline{19-23}
+		& 1 &   &   &   & &     & 1 &   &   &   & &     & 1 &   &   &   & &     & 1 &   &   &   \\\cline{2-5}\cline{8-11}\cline{14-17}\cline{20-23}
+	$y$	& 2 &   &   &   & & $y$ & 2 &   &   &   & & $y$ & 2 &   &   &   & & $y$ & 2 &   &   &   \\\cline{2-5}\cline{8-11}\cline{14-17}\cline{20-23}
+		& 3 &   &   &   & &     & 3 &   &   &   & &     & 3 &   &   &   & &     & 3 &   &   &   \\\cline{1-5}\cline{7-11}\cline{13-17}\cline{19-23}
+\end{tabular}
+\end{center}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Some Useful Tips}
+
+\begin{enumerate}[(a)]
+\item Notation you may use frequently: $\times \leq \geq \forall \exists \neg \vee \wedge \Longrightarrow \Longleftrightarrow \sum \prod \mathbb{N}$.
+\item Improve your writing style:
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+	\textbf{Correct or Better Usage}			& \textbf{Not Suggested	Usage}				\\\hline\hline
+	``a'' (check the source file how it comes)	& "a" (check the source file how it comes)	\\\hline
+	well-known									& well--known, well---known					\\
+	Lines 1--3									& Lines 1-3, Lines 1---3					\\
+	UC Berkeley---the best public school		& Berkeley-the, Berkeley--the				\\\hline
+	$1,2,\ldots,n$								& $1,2,\cdots,n$							\\
+	$1+2+\cdots+n$								& $1+2+\ldots+n$							\\\hline
+	$\left(\frac{\frac{1}{3}}{a+b}\right)$		& $(\frac{\frac{1}{3}}{a+b})$				\\\hline
+\end{tabular}
+\end{center}
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
