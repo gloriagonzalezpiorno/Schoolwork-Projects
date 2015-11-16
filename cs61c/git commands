@@ -1,0 +1,15 @@
+git init // takes a directory ready for github
+git status  // check stuff
+git log //sees a log 
+git branch // sees all branches
+git checkout -b [name] // create branch 
+git checkout -b [destination branch name] // mkdir 
+git checkout [name] //go in like cd  
+
+//after change
+git status 
+git add [filename]
+git commit -m [comment]
+git branch // check branch first 
+git push origin [branch name] // upload 
+

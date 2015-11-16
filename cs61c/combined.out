@@ -1,0 +1,35 @@
+.text
+24800abc
+24a0000a
+00000000
+3422bcde
+25000000
+11050011
+00884821
+81490000
+fffffffd
+254a0001
+00a72025
+0128302a
+0128302b
+000a5fc0
+354b0123
+a1490000
+ffff8000
+8d697fff
+016a082a
+1420ffef
+25290001
+00000000
+03e00008
+1564ffeb
+
+.symbol
+20	myFunc
+24	startLoop
+60	random
+96	endLoop
+
+.relocation
+8	myFunc
+92	startLoop
